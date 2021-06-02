@@ -11,14 +11,9 @@
     "post": "Post"
   },
   "Stripe": {
-    "title": "string",
-    "views": "int",
+    "bli": "string",
+    "blo": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "CommentStripe[]"
-  },
-  "CommentStripe": {
-    "body": "string",
-    "post": "Post"
   }
 }
