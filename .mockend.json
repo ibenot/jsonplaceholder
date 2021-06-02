@@ -15,6 +15,10 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "Comment[]"
+    "comments": "CommentStripe[]"
+  },
+  "CommentStripe": {
+    "body": "string",
+    "post": "Post"
   },
 }
