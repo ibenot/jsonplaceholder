@@ -9,5 +9,181 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "Stripe": {
+    "data": [
+        {
+            "id": "bancontact_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "card_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "eps_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "giropay_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "ideal_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "legacy_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": false,
+            "requested_at": null,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [
+                    "individual.verification.document"
+                ],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "unrequested"
+        },
+        {
+            "id": "p24_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "sepa_debit_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "sofort_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "transfers",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        }
+    ],
   }
 }
