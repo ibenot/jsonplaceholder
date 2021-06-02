@@ -11,7 +11,7 @@
     "post": "Post"
   },
   "Stripe": {
-    "data": {
+    "data": [{
             "id": "sofort_payments",
             "object": "capability",
             "account": "acct_15oyIyDBRuHdc1qM",
@@ -44,6 +44,6 @@
                 "pending_verification": []
             },
             "status": "active"
-        }
+        }]
   }
 }
