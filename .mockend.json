@@ -11,9 +11,39 @@
     "post": "Post"
   },
   "Stripe": {
-    "bli": "string",
-    "blo": "int",
-    "published": "boolean",
-    "createdAt": "date",
+    "data": {
+            "id": "sofort_payments",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        },
+        {
+            "id": "transfers",
+            "object": "capability",
+            "account": "acct_15oyIyDBRuHdc1qM",
+            "requested": true,
+            "requested_at": 1610467437,
+            "requirements": {
+                "current_deadline": null,
+                "currently_due": [],
+                "disabled_reason": null,
+                "errors": [],
+                "eventually_due": [],
+                "past_due": [],
+                "pending_verification": []
+            },
+            "status": "active"
+        }
   }
 }
