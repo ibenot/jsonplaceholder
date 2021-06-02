@@ -20,5 +20,5 @@
   "CommentStripe": {
     "body": "string",
     "post": "Post"
-  },
+  }
 }
