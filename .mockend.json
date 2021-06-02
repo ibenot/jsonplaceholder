@@ -10,8 +10,8 @@
     "body": "string",
     "post": "Post"
   },
-  "Stripe": {
-    "data": [{
+  "Stripe": 
+    [{
             "id": "sofort_payments",
             "object": "capability",
             "account": "acct_15oyIyDBRuHdc1qM",
@@ -45,5 +45,5 @@
             },
             "status": "active"
         }]
-  }
+  
 }
